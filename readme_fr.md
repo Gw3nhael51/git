@@ -23,7 +23,7 @@ print(f"Fruit choisi: {selected_fruit}")
 
 ## 🐍 Activer votre environnement python
 
-ouvrir le terminal en étant dans le chemin du projet: `*/nom_du_projet/git/` <br>
+ouvrir le terminal en étant dans le chemin du projet: `*/nom_du_projet/random_dice/` <br>
 taper la commande: `./py_env_3.11/Scripts/activate` ce qui va alors activer l'environnement py
 verifier la version de python: `python --version` ce qui va alors afficher la version || 3.11.8
 
