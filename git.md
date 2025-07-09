@@ -1,12 +1,14 @@
-# 📘 Documentation Git
+# 🎲 Générateur de lancer de dé en Python
 
-Une petite référence rapide des commandes Git utiles pour gérer un dépôt local et distant.
+Ce mini-script simule un lancer de dé classique (1 à 6) à l’aide du module `random` de Python.
 
 ---
 
-## 🔧 Configuration de base
+## 🔍 Exemple de code
 
-```bash
-git config --global user.name "TonNom"
-git config --global user.email "ton.email@example.com"
-```
+```python
+import random
+
+# Générer un numéro entre 1 et 6 comme un dé
+random_integer = random.randint(1, 6)
+print(f"Résultat du dé: {random_integer}")
